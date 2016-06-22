@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DBCat.iml" filepath="$PROJECT_DIR$/DBCat.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataBase.iml" filepath="$PROJECT_DIR$/DataBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbcat/dbcat.iml" filepath="$PROJECT_DIR$/dbcat/dbcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/dbcat/dbcat.iml" filepath="$PROJECT_DIR$/dbcat/dbcat.iml" />
     </modules>
   </component>
