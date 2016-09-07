@@ -1,1 +1,1 @@
-include ':app', ':dbcat'
+include ':app', ':dbcat', ':dbcat-compiler', ':dbcat-annotation'
