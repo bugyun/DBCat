@@ -1,7 +1,10 @@
 package com.zyh.database;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.zyh.dbcat.test.DaoSupportFactory;
+import com.zyh.dbcat.test.IDataSupport;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,6 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+    }
+
+    public void test() {
+        DaoSupportFactory factory = DaoSupportFactory.getFactory();
+        IDataSupport<People> dao = factory.getDao(People.class);
+        dao.insert(new People());
 
 
     }
