@@ -2,13 +2,22 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 23
     buildToolsVersion "25.0.0"
+=======
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+>>>>>>> 0bc4bb045b3294e66d316461bc3dcaf953e43065
 
     defaultConfig {
         applicationId "com.zyh.database"
         minSdkVersion 9
+<<<<<<< HEAD
         targetSdkVersion 25
+=======
+        targetSdkVersion 26
+>>>>>>> 0bc4bb045b3294e66d316461bc3dcaf953e43065
         versionCode 1
         versionName "1.0"
     }

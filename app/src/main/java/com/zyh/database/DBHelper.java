@@ -8,6 +8,13 @@ import android.database.sqlite.SQLiteOpenHelper;
  * Created by ruoyun on 16/8/31.
  */
 public class DBHelper extends SQLiteOpenHelper {
+
+    /**
+     * @param context 上下文
+     * @param name    数据库名字
+     * @param factory
+     * @param version 版本号
+     */
     public DBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
