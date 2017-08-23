@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Created by ruoyun on 16/8/31.
  */
-@Target(ElementType.METHOD)
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.CLASS)
 public @interface Column {
     int version() default 1;
